@@ -7,6 +7,7 @@ let
         p.wordfreq
         p.spacy
         p.jupyterlab
+        p.vega_datasets
     ]);
 
     run-jupyter = pkgs.writeShellScriptBin "run-jupyter" ''
