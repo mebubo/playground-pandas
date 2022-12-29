@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1672331362,
+        "narHash": "sha256-bM7ddHO5t+W6/3RAPZXujQFHCHEBx6PfBT31aG3C6p0=",
+        "owner": "mebubo",
+        "repo": "nixpkgs",
+        "rev": "1b89d507d4fca99e57deea95d859f4ba447b50cf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mebubo",
+        "ref": "nixos-unstable-with-updates",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
