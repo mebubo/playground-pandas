@@ -8,6 +8,8 @@ let
         p.spacy
         p.jupyterlab
         p.vega_datasets
+        p.matplotlib
+        p.seaborn
     ]);
 
     run-jupyter = pkgs.writeShellScriptBin "run-jupyter" ''
