@@ -24,4 +24,7 @@ in
             run-jupyter
             python-with-packages
         ];
+        shellHook = ''
+        export PS1='[nix develop]$ '
+        '';
     }
