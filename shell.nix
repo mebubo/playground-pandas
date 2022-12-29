@@ -9,11 +9,16 @@ let
         p.jupyterlab
     ]);
 
+    run-jupyter = pkgs.writeShellScriptBin "run-jupyter" ''
+        jupyter notebook --no-browser
+    '';
+
 in
 
     pkgs.mkShell {
         packages = [
             pkgs.jupyter
+            run-jupyter
             python-with-packages
         ];
     }
